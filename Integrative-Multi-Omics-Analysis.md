@@ -106,3 +106,56 @@ You can download the data from Synapse data repository. API clients
 provide a way to use Synapse programmatically. Installation instructions
 are available at [Synapse API Documentation
 Site](https://help.synapse.org/docs/Installing-Synapse-API-Clients.1985249668.html).
+
+The Synapse command line client is implemented in Python and comes with
+the Synapse Python package. To install the Synapse command line client,
+make sure that you have Python and pip installed. For more information,
+see the [Python](https://www.python.org/downloads/) and
+[pip](https://pip.pypa.io/en/stable/installing/) installation
+instructions.
+
+``` bash
+pip install synapseclient
+synapse login -u SYNAPSEUSER -p SYNAPSE_AUTH_TOKEN
+synapse -h
+
+# example:download single file
+synapse get syn34114003 --version 2
+
+# download multiple files together
+synapse get-download-list
+```
+
+``` r
+# Proteomics
+synapse get syn33605372 --version 2
+
+df.protein <- read.csv("data/TMT_normAbundances_Batch_regressed_Jax.IU.Pitt_LOAD2.csv") %>% dplyr::select(-"specimenID") %>% column_to_rownames(.,var="individualID")
+
+# Brain metabolomics
+synapse get syn34114003
+
+df.brainmet <- read.csv("data/Q500-brain_5833_Jax.IU.Pitt_LOAD2.csv")[,c(1:2,6:248)] %>% select(-"specimenID") %>% column_to_rownames(.,var="individualID")
+
+# Plasma metabolomics 
+synapse get syn34114002
+
+df.plasmamet <- read.csv("data/Q500-plasma_5833_Jax.IU.Pitt_LOAD2.csv")[,c(1:2,6:459)] 
+
+# Transcriptomics 
+synapse get syn26195571
+
+df.rna <- read.delim2("data/rnaseq_rsem.merged.gene_counts_Jax.IU.Pitt_LOAD2.tsv",check.names = F) %>% dplyr::select(-"transcript_id(s)") %>% column_to_rownames("gene_id")
+```
+
+We need to re-process the data to prepare it for input into MOFA. After
+re-processing, you can store data in a list format like below and can be
+inputted to MOFA.
+
+``` r
+AD_data <- list("Brain.Trans"= as.matrix(df.rna.norm),"PlasmaMeta"= as.matrix(df.plasmamet),"BrainMeta"= as.matrix(df.brainmet),"Proteins"= as.matrix(df.protein))
+saveRDS(AD_data,file="data/AD_OmicsData.rds")
+```
+
+We’ll skip this step for now, but you can complete it in your free time.
+We’ll be using the processed data and metadata for integrative analysis.
