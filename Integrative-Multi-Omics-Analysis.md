@@ -270,20 +270,20 @@ head(AD_covariates)
 dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt() 
 ```
 
-<div id="frvjdrwqfl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#frvjdrwqfl table {
+<div id="xuzrnislnh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#xuzrnislnh table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-&#10;#frvjdrwqfl thead, #frvjdrwqfl tbody, #frvjdrwqfl tfoot, #frvjdrwqfl tr, #frvjdrwqfl td, #frvjdrwqfl th {
+&#10;#xuzrnislnh thead, #xuzrnislnh tbody, #xuzrnislnh tfoot, #xuzrnislnh tr, #xuzrnislnh td, #xuzrnislnh th {
   border-style: none;
 }
-&#10;#frvjdrwqfl p {
+&#10;#xuzrnislnh p {
   margin: 0;
   padding: 0;
 }
-&#10;#frvjdrwqfl .gt_table {
+&#10;#xuzrnislnh .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -308,11 +308,11 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-left-width: 2px;
   border-left-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_caption {
+&#10;#xuzrnislnh .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-&#10;#frvjdrwqfl .gt_title {
+&#10;#xuzrnislnh .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -323,7 +323,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
-&#10;#frvjdrwqfl .gt_subtitle {
+&#10;#xuzrnislnh .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -334,7 +334,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
-&#10;#frvjdrwqfl .gt_heading {
+&#10;#xuzrnislnh .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -345,12 +345,12 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_bottom_border {
+&#10;#xuzrnislnh .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_col_headings {
+&#10;#xuzrnislnh .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -364,7 +364,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_col_heading {
+&#10;#xuzrnislnh .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -383,7 +383,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   padding-right: 5px;
   overflow-x: hidden;
 }
-&#10;#frvjdrwqfl .gt_column_spanner_outer {
+&#10;#xuzrnislnh .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -394,13 +394,13 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   padding-left: 4px;
   padding-right: 4px;
 }
-&#10;#frvjdrwqfl .gt_column_spanner_outer:first-child {
+&#10;#xuzrnislnh .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
-&#10;#frvjdrwqfl .gt_column_spanner_outer:last-child {
+&#10;#xuzrnislnh .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
-&#10;#frvjdrwqfl .gt_column_spanner {
+&#10;#xuzrnislnh .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -411,10 +411,10 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   display: inline-block;
   width: 100%;
 }
-&#10;#frvjdrwqfl .gt_spanner_row {
+&#10;#xuzrnislnh .gt_spanner_row {
   border-bottom-style: hidden;
 }
-&#10;#frvjdrwqfl .gt_group_heading {
+&#10;#xuzrnislnh .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -439,7 +439,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   vertical-align: middle;
   text-align: left;
 }
-&#10;#frvjdrwqfl .gt_empty_group_heading {
+&#10;#xuzrnislnh .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -453,13 +453,13 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-bottom-color: #D3D3D3;
   vertical-align: middle;
 }
-&#10;#frvjdrwqfl .gt_from_md > :first-child {
+&#10;#xuzrnislnh .gt_from_md > :first-child {
   margin-top: 0;
 }
-&#10;#frvjdrwqfl .gt_from_md > :last-child {
+&#10;#xuzrnislnh .gt_from_md > :last-child {
   margin-bottom: 0;
 }
-&#10;#frvjdrwqfl .gt_row {
+&#10;#xuzrnislnh .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -477,7 +477,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   vertical-align: middle;
   overflow-x: hidden;
 }
-&#10;#frvjdrwqfl .gt_stub {
+&#10;#xuzrnislnh .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -489,7 +489,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#frvjdrwqfl .gt_stub_row_group {
+&#10;#xuzrnislnh .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -502,13 +502,13 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   padding-right: 5px;
   vertical-align: top;
 }
-&#10;#frvjdrwqfl .gt_row_group_first td {
+&#10;#xuzrnislnh .gt_row_group_first td {
   border-top-width: 2px;
 }
-&#10;#frvjdrwqfl .gt_row_group_first th {
+&#10;#xuzrnislnh .gt_row_group_first th {
   border-top-width: 2px;
 }
-&#10;#frvjdrwqfl .gt_summary_row {
+&#10;#xuzrnislnh .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -517,14 +517,14 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#frvjdrwqfl .gt_first_summary_row {
+&#10;#xuzrnislnh .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_first_summary_row.thick {
+&#10;#xuzrnislnh .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
-&#10;#frvjdrwqfl .gt_last_summary_row {
+&#10;#xuzrnislnh .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -533,7 +533,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_grand_summary_row {
+&#10;#xuzrnislnh .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -542,7 +542,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#frvjdrwqfl .gt_first_grand_summary_row {
+&#10;#xuzrnislnh .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -551,7 +551,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-top-width: 6px;
   border-top-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_last_grand_summary_row_top {
+&#10;#xuzrnislnh .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -560,10 +560,10 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-bottom-width: 6px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_striped {
+&#10;#xuzrnislnh .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
-&#10;#frvjdrwqfl .gt_table_body {
+&#10;#xuzrnislnh .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -571,7 +571,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_footnotes {
+&#10;#xuzrnislnh .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -584,7 +584,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_footnote {
+&#10;#xuzrnislnh .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -592,7 +592,7 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#frvjdrwqfl .gt_sourcenotes {
+&#10;#xuzrnislnh .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -605,64 +605,64 @@ dplyr::count(AD_covariates, Sex, Genotype, Age,Diet)  %>% gt()
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#frvjdrwqfl .gt_sourcenote {
+&#10;#xuzrnislnh .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#frvjdrwqfl .gt_left {
+&#10;#xuzrnislnh .gt_left {
   text-align: left;
 }
-&#10;#frvjdrwqfl .gt_center {
+&#10;#xuzrnislnh .gt_center {
   text-align: center;
 }
-&#10;#frvjdrwqfl .gt_right {
+&#10;#xuzrnislnh .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-&#10;#frvjdrwqfl .gt_font_normal {
+&#10;#xuzrnislnh .gt_font_normal {
   font-weight: normal;
 }
-&#10;#frvjdrwqfl .gt_font_bold {
+&#10;#xuzrnislnh .gt_font_bold {
   font-weight: bold;
 }
-&#10;#frvjdrwqfl .gt_font_italic {
+&#10;#xuzrnislnh .gt_font_italic {
   font-style: italic;
 }
-&#10;#frvjdrwqfl .gt_super {
+&#10;#xuzrnislnh .gt_super {
   font-size: 65%;
 }
-&#10;#frvjdrwqfl .gt_footnote_marks {
+&#10;#xuzrnislnh .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
-&#10;#frvjdrwqfl .gt_asterisk {
+&#10;#xuzrnislnh .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
-&#10;#frvjdrwqfl .gt_indent_1 {
+&#10;#xuzrnislnh .gt_indent_1 {
   text-indent: 5px;
 }
-&#10;#frvjdrwqfl .gt_indent_2 {
+&#10;#xuzrnislnh .gt_indent_2 {
   text-indent: 10px;
 }
-&#10;#frvjdrwqfl .gt_indent_3 {
+&#10;#xuzrnislnh .gt_indent_3 {
   text-indent: 15px;
 }
-&#10;#frvjdrwqfl .gt_indent_4 {
+&#10;#xuzrnislnh .gt_indent_4 {
   text-indent: 20px;
 }
-&#10;#frvjdrwqfl .gt_indent_5 {
+&#10;#xuzrnislnh .gt_indent_5 {
   text-indent: 25px;
 }
-&#10;#frvjdrwqfl .katex-display {
+&#10;#xuzrnislnh .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
-&#10;#frvjdrwqfl div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+&#10;#xuzrnislnh div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -992,3 +992,672 @@ plot_factor_cor(MOFAobject)
 ```
 
 <img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-18-1.png" style="display: block; margin: auto;" />
+
+### Association between MOFA factors and Co-variates
+
+``` r
+correlate_factors_with_covariates(MOFAobject, 
+                                  covariates = c("Genotype","Sex","Diet","Age"), 
+                                  plot=c("log_pval","r")
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-19-1.png" style="display: block; margin: auto;" />
+
+### Visualisation of samples in the latent space
+
+Each MOFA factor captures a different dimension of heterogeneity in the
+data. Mathematically, each factor ordinates cells along a
+one-dimensional axis centered at zero. Samples with different signs
+manifest opposite phenotypes along the inferred axis of variation, with
+higher absolute value indicating a stronger effect. Note that the
+interpretation of factors is analogous to the interpretation of the
+principal components in PCA.
+
+Factors can be plotted using plot_factor (for beeswarm plots of
+individual factors) or plot_factors (for scatter plots of factor
+combinations).
+
+``` r
+plot_factor(MOFAobject, 
+            factors = 5, 
+            color_by = "Age",
+            group_by = "Genotype",shape_by = "Diet",
+            dodge = TRUE,
+            add_violin = TRUE
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-20-1.png" style="display: block; margin: auto;" />
+
+``` r
+plot_factor(MOFAobject, 
+            factors = 9, 
+            color_by = "Sex",
+            group_by = "Genotype",shape_by = "Age",
+            dodge = TRUE,
+            add_violin = TRUE
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-20-2.png" style="display: block; margin: auto;" />
+
+### Visualisation of feature weights
+
+The weights provide a score for how strong each feature relates to each
+factor. Features with no association with the factor have values close
+to zero, while features with strong association with the factor have
+large absolute values. The sign of the weight indicates the direction of
+the effect: a positive weight indicates that the feature has higher
+levels in the cells with positive factor values, and vice versa.
+
+Weights can be plotted using `plot_weights` (beeswarm plots) or
+`plot_top_weights` (scatter plots).
+
+``` r
+plot_top_weights(MOFAobject,
+                 view = "Transcriptomics",
+                 factors = 5,
+                 nfeatures = 10,     # Top number of features to highlight
+                 scale = T,           # Scale weights from -1 to 1
+                 abs = F
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-21-1.png" style="display: block; margin: auto;" />
+
+``` r
+plot_weights(MOFAobject,
+                 view = "Transcriptomics",
+                 factor = 5,
+                 nfeatures = 10,     # Top number of features to highlight
+                 scale = T           # Scale weights from -1 to 1
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-21-2.png" style="display: block; margin: auto;" />
+
+Similarly, we can identify top proteins and metabolites associated with
+eah factor
+
+``` r
+plot_top_weights(MOFAobject,
+                       view = "Proteomics",
+                       factors = 5,
+                       nfeatures = 10,     # Top number of features to highlight
+                       scale = T,           # Scale weights from -1 to 1
+                        abs = F
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-22-1.png" style="display: block; margin: auto;" />
+
+``` r
+##Plot feature weights for Brain metabolite 
+plot_top_weights(MOFAobject,
+             view = "Plasma Metabolomics",
+             factors = 5,
+             nfeatures = 10,     # Top number of features to highlight
+             scale = T,           # Scale weights from -1 to 1
+             abs = F
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-22-2.png" style="display: block; margin: auto;" />
+
+``` r
+plot_top_weights(MOFAobject,
+                 view = "Brain Metabolomics",
+                 factors = 5,
+                 nfeatures = 10,     # Top number of features to highlight
+                 scale = T ,           # Scale weights from -1 to 1
+                  abs = F
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-22-3.png" style="display: block; margin: auto;" />
+
+### Visualisation of patterns in the input data
+
+Instead of looking at weights, it is useful to observe the coordinated
+heterogeneity that MOFA captures in the original data. This can be done
+using the plot_data_heatmap and plot_data_scatter function.
+
+#### Heatmaps
+
+Heatmap of observations. Top features are selected by its weight in the
+selected factor. By default, samples are ordered according to their
+corresponding factor value.
+
+``` r
+plot_data_heatmap(MOFAobject,
+  view = "Transcriptomics",         # view of interest
+  factor = 5,             # factor of interest
+  features = 20,          # number of features to plot (they are selected by weight)
+  
+  # extra arguments that are passed to the `pheatmap` function
+  cluster_rows = TRUE, cluster_cols = FALSE,
+  show_rownames = TRUE, show_colnames = FALSE
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-23-1.png" style="display: block; margin: auto;" />
+
+#### Scatter plot
+
+Scatter plots of observations vs factor values. It is useful to add a
+linear regression estimate to visualise if the relationship between
+(top) features and factor values is linear.
+
+``` r
+plot_data_scatter(MOFAobject,
+  view = "Transcriptomics",         # view of interest
+  factor = 5,             # factor of interest
+  features = 9,           # number of features to plot (they are selected by weight)
+  add_lm = TRUE,          # add linear regression
+  color_by = "Age"
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-24-1.png" style="display: block; margin: auto;" />
+
+``` r
+plot_data_scatter(MOFAobject,
+  view = "Proteomics",         # view of interest
+  factor = 5,             # factor of interest
+  features = 9,           # number of features to plot (they are selected by weight)
+  add_lm = TRUE,          # add linear regression
+  color_by = "Age"
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-24-2.png" style="display: block; margin: auto;" />
+
+``` r
+plot_data_scatter(MOFAobject,
+  view = "Brain Metabolomics",         # view of interest
+  factor = 5,             # factor of interest
+  features = 9,           # number of features to plot (they are selected by weight)
+  add_lm = TRUE,          # add linear regression
+  color_by = "Age"
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-24-3.png" style="display: block; margin: auto;" />
+
+``` r
+plot_data_scatter(MOFAobject,
+  view = "Plasma Metabolomics",         # view of interest
+  factor = 5,             # factor of interest
+  features = 9,           # number of features to plot (they are selected by weight)
+  add_lm = TRUE,          # add linear regression
+  color_by = "Age"
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-24-4.png" style="display: block; margin: auto;" />
+
+#### Scatter plot by directionality
+
+``` r
+## we can also sepearte by sign
+plot_data_scatter(MOFAobject,
+  view = "Transcriptomics",         # view of interest
+  factor = 5,             # factor of interest
+  features = 9,           # number of features to plot (they are selected by weight)
+  add_lm = TRUE,# add linear regression
+  sign = "positive",
+  color_by = "Age"
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-25-1.png" style="display: block; margin: auto;" />
+
+``` r
+plot_data_scatter(MOFAobject,
+  view = "Transcriptomics",         # view of interest
+  factor = 5,             # factor of interest
+  features = 9,           # number of features to plot (they are selected by weight)
+  add_lm = TRUE,# add linear regression
+  sign = "negative",
+  color_by = "Age"
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-25-2.png" style="display: block; margin: auto;" />
+
+#### Plot specific features
+
+``` r
+plot_data_scatter(MOFAobject, 
+                  view = "Transcriptomics",
+                  factor = 5,  
+                  features = "C4b",
+                  color_by = "Age",
+)
+```
+
+![](Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+
+### Gene Set Enrichment Analysis (GSEA)
+
+#### Gene set annotations
+
+There are a large number of gene set annotations, and the right one to
+use will depend on your data set. Some generic and commonly used ones
+are [MSigDB](https://www.gsea-msigdb.org/gsea/msigdb/index.jsp),
+[Reactome](https://reactome.org/) and [Gene
+Ontology](http://geneontology.org/). There are some manually processed
+some gene sets, which can be found in the [MOFAdata
+package](https://bioconductor.org/packages/release/data/experiment/html/MOFAdata.html).
+
+Test datasets used in this workshop are from mouse models, so we are
+going to use mouse gene set annotations MSigDB 6.0 (mouse) from MOFAdata
+package:
+
+``` r
+# C2: curated gene sets from online pathway databases, publications in PubMed, and knowledge of domain experts.
+data("MSigDB_v6.0_C2_mouse") 
+
+
+head(rownames(MSigDB_v6.0_C2_mouse), n=3)
+```
+
+    ## [1] "KEGG_GLYCOLYSIS_GLUCONEOGENESIS" "KEGG_CITRATE_CYCLE_TCA_CYCLE"   
+    ## [3] "KEGG_PENTOSE_PHOSPHATE_PATHWAY"
+
+``` r
+head(colnames(MSigDB_v6.0_C2_mouse), n=3)
+```
+
+    ## [1] "XKR4"  "RP1"   "SOX17"
+
+``` r
+# C5: extracted from the Gene Ontology data.base
+data("MSigDB_v6.0_C5_mouse") 
+
+head(rownames(MSigDB_v6.0_C5_mouse), n=3)
+```
+
+    ## [1] "GO_POSITIVE_REGULATION_OF_VIRAL_TRANSCRIPTION"           
+    ## [2] "GO_CARDIAC_CHAMBER_DEVELOPMENT"                          
+    ## [3] "GO_DNA_DEPENDENT_DNA_REPLICATION_MAINTENANCE_OF_FIDELITY"
+
+``` r
+head(colnames(MSigDB_v6.0_C5_mouse), n=3)
+```
+
+    ## [1] "XKR4"  "RP1"   "SOX17"
+
+Give them a shot, but it is likely that you will have to create a
+tailored gene set for your application. Also, If you have an annotation
+that other people could benefit from, please let us know and we will
+upload it.
+
+For this example we will use the MSigDB_v6.0_C5_mouse gene set
+annotations, which are derived from the Gene Ontology data base. First,
+we need to match the gene names in the MOFA object to the gene names in
+the gene set annotation. For this we just have to capitalise the gene
+names in MOFA:
+
+``` r
+model <- MOFAobject
+features_names(model)[["Transcriptomics"]] <- toupper(features_names(model)[["Transcriptomics"]])
+head(features_names(model)[["Transcriptomics"]])
+```
+
+    ## [1] "GNAI3" "CDC45" "H19"   "SCML2" "APOH"  "NARF"
+
+#### Run enrichment analysis
+
+An important consideration when running GSEA is that MOFA has positive
+and negative weights. The features with positive weights are “high” in
+the samples with positive factor values, whereas the features with
+negative weights are “high” in the samples with negative factor values.
+Taking this into account, you may want to do GSEA specifically with the
+positive weights or with the negative weights. Merging them and taking
+the absolute value could dilute the signal. Hence, do GSEA separately
+for (+) and (-) weights as well as jointly with all weights.
+
+As a demonstration, we will run GSEA with a simple parametric t-test
+using features with poitive and negative weights.
+
+it can take upto 4-5 minutes
+
+``` r
+enrichment.parametric.pos <- run_enrichment(model,
+                                            view = "Transcriptomics", 
+                                            factors = 1:10,
+                                            feature.sets = MSigDB_v6.0_C5_mouse,
+                                            sign = "positive",
+                                            statistical.test = "parametric"
+)
+
+enrichment.parametric.neg <- run_enrichment(model,
+                                            view = "Transcriptomics", 
+                                            factors = 1:10,
+                                            feature.sets = MSigDB_v6.0_C5_mouse,
+                                            sign = "negative",
+                                            statistical.test = "parametric"
+)
+```
+
+The enrichment analysis returns a list of 5 elements:
+
+- **feature.sets**: the feature set matrix filtered by the genes that
+  overlap with the MOFA model.
+- **pval**: the nominal p-values.
+- **pval.adj**: the FDR-adjusted p-values.
+- **feature.statistics**: the feature statistics (i.e. the weights).
+- **set.statistics**: matrices with the gene set statistics.
+- **sigPathways**: list with significant pathways per factor at a
+  specified FDR threshold
+
+Let’s explore the output:
+
+``` r
+names(enrichment.parametric.pos)
+```
+
+    ## [1] "feature.sets"       "pval"               "pval.adj"          
+    ## [4] "feature.statistics" "set.statistics"     "sigPathways"
+
+``` r
+enrichment.parametric.pos$pval.adj[1:5,1]
+```
+
+    ##            GO_POSITIVE_REGULATION_OF_VIRAL_TRANSCRIPTION 
+    ##                                                1.0000000 
+    ##                           GO_CARDIAC_CHAMBER_DEVELOPMENT 
+    ##                                                0.9999395 
+    ## GO_DNA_DEPENDENT_DNA_REPLICATION_MAINTENANCE_OF_FIDELITY 
+    ##                                                1.0000000 
+    ##                                      GO_CIRCADIAN_RHYTHM 
+    ##                                                0.9999395 
+    ##              GO_PHOSPHATIDYLSERINE_ACYL_CHAIN_REMODELING 
+    ##                                                1.0000000
+
+### Plot results of enrichment analysis
+
+There are three main functions to plot the results of the gene set
+enrichment analysis:
+
+- **plot_enrichment_heatmap**: plot a heatmap of gene sets (rows) versus
+  factors (columns) where each entry correspons to the log p-value. This
+  is useful to get an overview on which factors show statistically
+  enriched pathways.
+- **plot_enrichment**: plot the top significant pathways for a specific
+  factor.
+- **plot_enrichment_detailed**: plot a detailed output, highlighting the
+  genes that are contributing to the enrichment of each pathway.
+
+``` r
+plot_enrichment(enrichment.parametric.pos, 
+  factor = 5, 
+  max.pathways = 15
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-31-1.png" style="display: block; margin: auto;" />
+The lineplot shows that features with positive weights for Factor 5 is
+enriched for immune-associated processed, that’s implies that
+immune-related genes are highly expressed in the samples with positive
+factor values i.e. in aged mice.
+
+``` r
+plot_enrichment(enrichment.parametric.neg, 
+                factor = 5, 
+                max.pathways = 15
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-32-1.png" style="display: block; margin: auto;" />
+The lineplot shows that features with negative weights for Factor 5 is
+enriched for synapse/neuron related biological processed, that’s implies
+that synapse genes have reduced expression in the samples with positive
+factor values i.e. in aged mice.
+
+``` r
+plot_enrichment_detailed(enrichment.parametric.pos, 
+                         factor = 5, 
+                         max.genes = 8, 
+                         max.pathways = 5
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-33-1.png" style="display: block; margin: auto;" />
+This plot shows that all enriched pathways are driven by the
+immune-related genes. The results above suggest that complement genes
+are highly expressed in samples with positive factor values.
+
+``` r
+plot_enrichment_detailed(enrichment.parametric.neg, 
+                         factor = 5, 
+                         max.genes = 8, 
+                         max.pathways = 5
+)
+```
+
+<img src="Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-34-1.png" style="display: block; margin: auto;" />
+
+#### Run enrichment analysis for protein data
+
+``` r
+x1 <- features_names(model)[["Proteomics"]] 
+x2 <- sapply(x1, function(x) unlist(strsplit(x, split = "[.]"))[1])
+
+features_names(model)[["Proteomics"]] <- toupper(x2)
+head(features_names(model)[["Proteomics"]])
+```
+
+    ## [1] "DYNC1H1" "SPTAN1"  "SPTAN1"  "SPTAN1"  "ANK2"    "ANK2"
+
+``` r
+enrichment.parametric.pos.protein <- run_enrichment(model,
+                                            view = "Proteomics", 
+                                            factors = 1:10,
+                                            feature.sets = MSigDB_v6.0_C5_mouse,
+                                            sign = "positive",
+                                            statistical.test = "parametric"
+)
+
+enrichment.parametric.neg.protein <- run_enrichment(model,
+                                                    view = "Proteomics", 
+                                                    factors = 1:10,
+                                                    feature.sets = MSigDB_v6.0_C5_mouse,
+                                                    sign = "negative",
+                                                    statistical.test = "parametric"
+)
+```
+
+``` r
+plot_enrichment(enrichment.parametric.pos.protein, 
+                factor = 5, 
+                max.pathways = 15
+)
+```
+
+![](Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-36-1.png)<!-- -->
+
+``` r
+plot_enrichment(enrichment.parametric.neg.protein, 
+                factor = 5, 
+                max.pathways = 15
+)
+```
+
+![](Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-36-2.png)<!-- -->
+
+``` r
+plot_enrichment_detailed(enrichment.parametric.pos.protein, 
+                         factor = 5, 
+                         max.genes = 8, 
+                         max.pathways = 10
+)
+```
+
+![](Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-36-3.png)<!-- -->
+
+``` r
+plot_enrichment_detailed(enrichment.parametric.neg.protein, 
+                         factor = 5, 
+                         max.genes = 8, 
+                         max.pathways = 5
+)
+```
+
+![](Integrative-Multi-Omics-Analysis_files/figure-gfm/unnamed-chunk-36-4.png)<!-- -->
+
+### Extracting data for downstream analysis
+
+We can extract the feature weights, the data and the factors to generate
+their own plots.
+
+Extract factors
+
+``` r
+factors <- get_factors(MOFAobject, 
+                       factors = "all", 
+                       as.data.frame = T
+)
+head(factors)
+```
+
+    ##   sample factor       value  group
+    ## 1  50130    LF1 -0.07046337 group1
+    ## 2  50316    LF1  0.45690942 group1
+    ## 3  50323    LF1 -0.19301024 group1
+    ## 4  50389    LF1 -0.90989785 group1
+    ## 5  50394    LF1 -0.27807130 group1
+    ## 6  50395    LF1  0.10562172 group1
+
+Extract weights
+
+``` r
+weights <- get_weights(MOFAobject, 
+                       views = "all", 
+                       factors = "all", 
+                       as.data.frame = T, 
+)
+head(weights)
+```
+
+    ##   feature factor         value            view
+    ## 1   Gnai3    LF1  5.228105e-09 Transcriptomics
+    ## 2   Cdc45    LF1  8.720307e-09 Transcriptomics
+    ## 3     H19    LF1 -6.445765e-08 Transcriptomics
+    ## 4   Scml2    LF1  5.079806e-09 Transcriptomics
+    ## 5    Apoh    LF1  1.982940e-08 Transcriptomics
+    ## 6    Narf    LF1 -8.508424e-10 Transcriptomics
+
+Extract data
+
+``` r
+# data <- get_data(MOFAobject, 
+#                  views = "all", 
+#                  as.data.frame = T
+# )
+# head(data)
+```
+
+#### Top plasma metabolites positively associated with factor 5
+
+``` r
+weights %>% filter(view %in% "Plasma Metabolomics") %>%  filter(value > 0.6 & factor %in% "LF5") %>% pull("feature") %>% as.character(.)
+```
+
+    ##  [1] "C14_PlasmaMeta"                "C16_PlasmaMeta"               
+    ##  [3] "C16.1_PlasmaMeta"              "C18.1_PlasmaMeta"             
+    ##  [5] "C18.1.OH_PlasmaMeta"           "CE.20.3."                     
+    ##  [7] "CE.20.4."                      "HexCer.d18.1.18.0._PlasmaMeta"
+    ##  [9] "TG.16.0_32.1."                 "TG.16.0_34.1."                
+    ## [11] "TG.16.0_34.2."                 "TG.16.0_34.3."                
+    ## [13] "TG.16.0_36.2."                 "TG.16.0_36.3."                
+    ## [15] "TG.16.1_32.0."                 "TG.16.1_32.1."                
+    ## [17] "TG.16.1_34.0."                 "TG.16.1_34.1."                
+    ## [19] "TG.16.1_34.2."                 "TG.16.1_34.3."                
+    ## [21] "TG.16.1_36.1."                 "TG.16.1_36.2."                
+    ## [23] "TG.16.1_36.3."                 "TG.16.1_36.4."                
+    ## [25] "TG.17.2_36.4."                 "TG.17.2_38.5."                
+    ## [27] "TG.17.2_38.6."                 "TG.18.1_32.1."                
+    ## [29] "TG.18.1_32.2."                 "TG.18.1_34.1."                
+    ## [31] "TG.18.1_34.2."                 "TG.18.1_34.3."                
+    ## [33] "TG.18.1_36.1."                 "TG.18.1_36.2."                
+    ## [35] "TG.18.1_36.3."                 "TG.18.2_32.1."                
+    ## [37] "TG.18.2_34.1."                 "TG.20.1_32.3."                
+    ## [39] "TG.20.4_34.1."                 "X1.Met.His_PlasmaMeta"
+
+## Recommendation flowchart for choosing a method for multi-omics integration from \[Reel et al. 2021\] (<https://pubmed.ncbi.nlm.nih.gov/33794304/>)
+
+<img src="figures/conclusion_fig1.png" width="1000px" align="center" alt="tools" >
+
+``` r
+sessionInfo()
+```
+
+    ## R version 4.4.2 (2024-10-31)
+    ## Platform: aarch64-apple-darwin20
+    ## Running under: macOS Ventura 13.7.4
+    ## 
+    ## Matrix products: default
+    ## BLAS:   /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRblas.0.dylib 
+    ## LAPACK: /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.0
+    ## 
+    ## locale:
+    ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+    ## 
+    ## time zone: America/New_York
+    ## tzcode source: internal
+    ## 
+    ## attached base packages:
+    ## [1] stats4    stats     graphics  grDevices utils     datasets  methods  
+    ## [8] base     
+    ## 
+    ## other attached packages:
+    ##  [1] gt_0.11.1                   reticulate_1.39.0          
+    ##  [3] cowplot_1.1.3               data.table_1.16.2          
+    ##  [5] lubridate_1.9.3             forcats_1.0.0              
+    ##  [7] stringr_1.5.1               dplyr_1.1.4                
+    ##  [9] purrr_1.0.2                 readr_2.1.5                
+    ## [11] tidyr_1.3.1                 tibble_3.2.1               
+    ## [13] ggplot2_3.5.1               tidyverse_2.0.0            
+    ## [15] MultiAssayExperiment_1.32.0 SummarizedExperiment_1.36.0
+    ## [17] GenomicRanges_1.58.0        GenomeInfoDb_1.42.0        
+    ## [19] MatrixGenerics_1.18.0       matrixStats_1.4.1          
+    ## [21] AnnotationDbi_1.67.0        IRanges_2.40.0             
+    ## [23] S4Vectors_0.44.0            Biobase_2.66.0             
+    ## [25] BiocGenerics_0.52.0         MOFAdata_1.22.0            
+    ## [27] MOFA2_1.16.0               
+    ## 
+    ## loaded via a namespace (and not attached):
+    ##  [1] mnormt_2.1.1            DBI_1.2.3               rlang_1.1.4            
+    ##  [4] magrittr_2.0.3          compiler_4.4.2          RSQLite_2.3.7          
+    ##  [7] mgcv_1.9-1              dir.expiry_1.14.0       png_0.1-8              
+    ## [10] vctrs_0.6.5             reshape2_1.4.4          pkgconfig_2.0.3        
+    ## [13] crayon_1.5.3            fastmap_1.2.0           backports_1.5.0        
+    ## [16] XVector_0.46.0          labeling_0.4.3          utf8_1.2.4             
+    ## [19] rmarkdown_2.29          tzdb_0.4.0              UCSC.utils_1.2.0       
+    ## [22] bit_4.5.0               xfun_0.49               zlibbioc_1.52.0        
+    ## [25] cachem_1.1.0            jsonlite_1.8.9          blob_1.2.4             
+    ## [28] highr_0.11              rhdf5filters_1.18.0     DelayedArray_0.32.0    
+    ## [31] Rhdf5lib_1.28.0         psych_2.4.6.26          broom_1.0.7            
+    ## [34] parallel_4.4.2          R6_2.5.1                stringi_1.8.4          
+    ## [37] RColorBrewer_1.1-3      car_3.1-3               Rcpp_1.0.13-1          
+    ## [40] knitr_1.48              splines_4.4.2           Matrix_1.7-1           
+    ## [43] timechange_0.3.0        tidyselect_1.2.1        rstudioapi_0.17.1      
+    ## [46] abind_1.4-8             yaml_2.3.10             lattice_0.22-6         
+    ## [49] plyr_1.8.9              basilisk.utils_1.18.0   withr_3.0.2            
+    ## [52] KEGGREST_1.46.0         evaluate_1.0.1          Rtsne_0.17             
+    ## [55] xml2_1.3.6              Biostrings_2.74.0       ggpubr_0.6.0           
+    ## [58] pillar_1.9.0            filelock_1.0.3          carData_3.0-5          
+    ## [61] corrplot_0.95           generics_0.1.3          hms_1.1.3              
+    ## [64] munsell_0.5.1           scales_1.3.0            glue_1.8.0             
+    ## [67] pheatmap_1.0.12         tools_4.4.2             ggsignif_0.6.4         
+    ## [70] rhdf5_2.50.0            grid_4.4.2              colorspace_2.1-1       
+    ## [73] nlme_3.1-166            GenomeInfoDbData_1.2.13 basilisk_1.18.0        
+    ## [76] HDF5Array_1.34.0        Formula_1.2-5           cli_3.6.3              
+    ## [79] fansi_1.0.6             S4Arrays_1.6.0          uwot_0.2.2             
+    ## [82] gtable_0.3.6            rstatix_0.7.2           sass_0.4.9             
+    ## [85] digest_0.6.37           SparseArray_1.6.0       ggrepel_0.9.6          
+    ## [88] farver_2.1.2            memoise_2.0.1           htmltools_0.5.8.1      
+    ## [91] lifecycle_1.0.4         httr_1.4.7              bit64_4.5.2
