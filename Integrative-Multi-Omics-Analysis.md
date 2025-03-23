@@ -1,35 +1,52 @@
 Integrative Multi-Omics Analysis
 ================
-Ravi S Pandey
 2025-03-23
 
-## R Markdown
+Author: Ravi Pandey, Jackson Laboratory
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+# Introduction
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+Alzheimer’s disease is a complex, multifactorial pathology with high
+heterogeneity in biological alternations.One of the biggest challenges
+in AD is to identify pathways and markers of disease progression, which
+can be easily accessible, in asymptomatic at-risk individuals.
+Multi-omics data could provide complementary information, which might be
+helpful to reveal the underlying biology of the associations. Moreover,
+integrating the information from single-omics studies provides an
+opportunity for a thorough exploration of endophenotype networks and
+biological interactions related to disease.
 
-``` r
-summary(cars)
-```
+<img src="figures/intro_fig2.png" width="1000px" align="center" alt="Overview" >
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+## Challenges in multi-omics analysis
 
-## Including Plots
+- Heterogeneity, Sparsity and outliers
+- Omics datasets can differ vastly in size (number of features)
+- More features than data (p \>\> n)
+- Class imbalance and overfitting
+- Computation and storage cost
+- Additionally, biological datasets are complex, noisy, with potential
+  errors due to measurement mistakes or unique biological deviations.
 
-You can also embed plots, for example:
+## Methods/Tools
 
-![](Integrative-Multi-Omics-Analysis_files/figure-gfm/pressure-1.png)<!-- -->
+<img src="figures/method_fig1.png" width="1000px" align="center" alt="tools" >
 
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+One can choose tools based on its ability to address biological question
+of interests and approaches.
+
+### The biological questions are broadly categorized into 3 different case studies:
+
+- Disease subtyping and classification based on multi-omics profiles.
+
+- Prediction of biomarkers for various applications including
+  diagnostics and driver genes for diseases.
+
+- Deriving insights into disease biology.
+
+<img src="figures/method_fig3.jpg" width="1000px" align="center" alt="tools" >
+
+In this lesson, we are going to integrate data from multiple omics
+platforms (transcriptomics, proteomics, and metabolomics) in an unbiased
+fashion, considering interaction between modalities using **multi-omics
+factor analysis (MOFA)**.
